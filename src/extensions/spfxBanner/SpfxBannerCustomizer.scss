@@ -1,0 +1,24 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.app {
+  .top {
+      height:60px;
+      text-align:left;
+      line-height:2.5;
+      font-weight:400;
+      display: flex;
+      align-items: center;
+      justify-content: center;      
+      color:white;
+      // :any-link{
+      //   margin: 0 0 0 5px;
+      //   color:white;
+      //   text-decoration: underline;
+      // }
+  }
+  a{
+    margin: 0 0 0 5px;
+        color:white;
+        text-decoration: underline;
+  }  
+}
